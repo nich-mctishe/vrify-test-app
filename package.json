@@ -1,0 +1,29 @@
+{
+  "name": "vrify-test-app",
+  "version": "1.0.0",
+  "description": "Based on the table information in Question 2, write a REST based javascript service (any framework of your choice) which interfaces with these tables. Write any associated unit tests necessary. ",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "standard && mocha tests/test",
+    "app": "node src/"
+  },
+  "author": "Nicholas Headlong <nichheadlong@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.5.3",
+    "standard": "^12.0.1"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  }
+}
