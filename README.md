@@ -1,11 +1,11 @@
 
-#VRIFY test REST app.
+# VRIFY test REST app.
 
 this is an app to test CRUD actions in an API environment for the question:
 
 Based on the table information in Question 2, write a REST based javascript service (any framework of your choice) which interfaces with these tables. Write any associated unit tests necessary.
 
-##SYSTEM REQUIREMENTS
+## SYSTEM REQUIREMENTS
 
 1. Node 10+
 2. MySQL 5.0.12
@@ -31,7 +31,7 @@ Based on the table information in Question 2, write a REST based javascript serv
     **please note, all varchar**
     *ids set to not null primary key auto_increment*
 
-##HOW TO USE
+## HOW TO USE
 
 run `npm install` then run `npm run app` to start the server. you will be able to connect using at `http://localhost` + your chosen port (or PORT 3000 if no port specified in env)
 
@@ -54,13 +54,13 @@ will update any supplied data (requires an ID)
 DELETE:
 will delete based on supplied data
 
-##TESTING
+## TESTING
 
 running `npm run test` will access the unit tests. These are code linting using standardJS and unit and http testing using Mocha and Chai
 
 the tests can be found in /tests
 
-##ENV VARS
+## ENV VARS
 
 can be found in the .env file in the root of this project and the following **must** be set.
 ```
